@@ -3,30 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Practice JavaScript by drawing</title>
+  <title>Customized AutoBot Logog</title>
 </head>
 <body>
   <canvas id="myCanvas" height="310" width="500" style="border: 1px solid black"></canvas>
   <script>
   var canvas = document.getElementById('myCanvas');
-var context = canvas.getContext('2d');
-
-// Blur lines
-
-for(var i=0;i<25;i++){
-  for(var j=0;j<15;j++){
-
-    context.fillStyle='rgb('+ Math.floor(129 - 42*j) + ', 119,'+ Math.floor(50+15*i)+')';
-
-
-context.fillRect(i*20+5,j*20+10,8,8);
-  }
- }
+  var context = canvas.getContext('2d');
+  // Blur lines
+  for(var i=0;i<25;i++){
+    for(var j=0;j<15;j++){
+      context.fillStyle='rgb('+ Math.floor(129 - 42*j) + ', 119,'+ Math.floor(50+15*i)+')';
+        context.fillRect(i*20+5,j*20+10,8,8);
+      }
+    }
 // Upper Left Eye Area
-
 context.fillStyle='black';
 context.strokeStyle='black';
-
+    
 context.beginPath();
 context.moveTo(80,30);
 context.lineTo(130,30);
@@ -41,7 +35,6 @@ context.fill();
 context.stroke();
 
 //Left Side "Eyes"
-
 context.fillStyle='red';
 context.strokeStyle='black';
 
@@ -85,7 +78,6 @@ context.stroke();
 context.fill();
 
 //Mouth
-
 context.fillStyle='black';
 context.strokeStyle='black';
 
@@ -108,7 +100,6 @@ context.stroke();
 context.fill();
 
 //Chin
-
 context.fillStyle='black';
 context.strokeStyle='black';
 
@@ -140,7 +131,6 @@ context.stroke();
 context.fill();
 
 //Upper Right Eyes Area
-
 context.fillStyle='black';
 context.strokeStyle='black';
 
@@ -158,7 +148,6 @@ context.lineTo(80+355,30)
 context.stroke();
 
 // Right Side "Eyes"
-
 context.fillStyle='red';
 context.strokeStyle='black';
 
@@ -222,34 +211,21 @@ context.stroke();
 context.fill();
 
 //Forehead STAR sign
-
 function filledStar(x,y,a){
-
 context.fillStyle='red'
-
 //context.strokeStyle='grey'
-
 context.beginPath();
-
 context.moveTo(x+a/2-(Math.sin(72*Math.PI/180)*a/2), y-Math.sin(18*Math.PI/180)*a/2);/*1-ok*/
-
 context.lineTo(x+a-2*(a/2-(Math.sin(72*Math.PI/180)*a/2)),y-Math.sin(18*Math.PI/180)*a/2);/*2-ok*/
-
 context.lineTo(x+a/2-(Math.sin(36*Math.PI/180)*a/2),(Math.sin(54*Math.PI/180)*a/2)+y);/*3-ok*/
-
 context.lineTo(x+a/2,y-a/2);/*4-ok*/
-
 context.lineTo(x+a-(Math.sin(36*Math.PI/180)*a/2),(Math.sin(54*Math.PI/180)*a/2)+y);/*5-ok*/
-
 context.lineTo(x+a/2-(Math.sin(72*Math.PI/180)*a/2),y-Math.sin(18*Math.PI/180)*a/2);/*6-ok*/
-
 context.fill();
 //context.stroke();
 }
-
 console.log();
 filledStar(225,50,70);
-
   </script>
 </body>
 </html>
