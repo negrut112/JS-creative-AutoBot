@@ -4,10 +4,12 @@
   
 <a href="https://negrut112.github.io/JS-creative-AutoBot" target="_blank"><img src="https://i.imgur.com/OUIfXde.png"></a>
 
-<p>HTML</p>
+<b>HTML</b>
 <p>I have used the HTML to define the area where I’m working defining the height, width and the border style:</p>
 <p>&lt;canvas id=“myCanvas” height=“310” width=“500” style=“border: 1px solid black”&gt;&lt;/canvas&gt;</p>
-<p>JavaScript</p>
+
+<b>JavaScript</b>
+
 <p>Here I applied some graphic methods so I can obtain the desired shapes.</p>
 <p>A simple example that helped to generate the “upper eye left area” is:<br>
 // Upper Left Eye Area</p>
@@ -28,7 +30,6 @@ context.stroke(); //close the stroke method</p>
 <p>//Forehead STAR sign<br>
 function filledStar(x,y,a){<br>
 context.fillStyle=‘red’<br>
-<a href="//context.strokeStyle=">//context.strokeStyle=</a>‘grey’<br>
 context.beginPath();<br>
 context.moveTo(x+a/2-(Math.sin(72<em>Math.PI/180)<em>a/2), y-Math.sin(18</em>Math.PI/180)<em>a/2);/<em>1-ok</em>/<br>
 context.lineTo(x+a-2</em>(a/2-(Math.sin(72</em>Math.PI/180)<em>a/2)),y-Math.sin(18</em>Math.PI/180)<em>a/2);/<em>2-ok</em>/<br>
@@ -37,7 +38,7 @@ context.lineTo(x+a/2,y-a/2);/<em>4-ok</em>/<br>
 context.lineTo(x+a-(Math.sin(36</em>Math.PI/180)<em>a/2),(Math.sin(54</em>Math.PI/180)<em>a/2)+y);/<em>5-ok</em>/<br>
 context.lineTo(x+a/2-(Math.sin(72</em>Math.PI/180)<em>a/2),y-Math.sin(18</em>Math.PI/180)*a/2);/<em>6-ok</em>/<br>
 context.fill();<br>
-<a href="//context.stroke">//context.stroke</a>();<br>
+context.stroke();<br>
 }<br>
 console.log();<br>
 filledStar(225,50,70);</p>
