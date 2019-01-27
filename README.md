@@ -23,9 +23,9 @@ context.lineTo(200,100);<br>
 context.lineTo(215,150);<br>
 context.lineTo(165,150);<br>
 context.lineTo(95,100);<br>
-context.lineTo(80,30);<br>
+context.lineTo(80,30);<br> // ----//-----<br>
 context.fill(); // close the fill method<br>
-context.stroke(); //close the stroke method
+context.stroke(); // close the stroke method
 <p>Realisation of Star was a bit tricky, beacuse is a perfect 5 corner shape, so I had to write the following function using 3 parameters two for starting point and one parameter for side length:</p>
 <p>//Forehead STAR sign<br>
 function filledStar(x,y,a){<br>
