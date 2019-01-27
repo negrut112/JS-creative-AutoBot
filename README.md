@@ -13,17 +13,17 @@
 <p>Here I applied some graphic methods so I can obtain the desired shapes.</p>
 <p>A simple example that helped to generate the “upper eye left area” is:<br>
 
-context.fillStyle=‘black’; //Used to fill the generated path<br>
-context.strokeStyle=‘black’; //Used to generate path before I fill it</p>
-<p>context.beginPath();  //method to start the path<br>
-context.moveTo(80,30); //starting point<br>
-context.lineTo(130,30); //next defined point<br>
+context.fillStyle=‘black’; // Used to fill the generated path<br>
+context.strokeStyle=‘black’; // Used to generate path before I fill it</p>
+<p>context.beginPath();  // method to start the path<br>
+context.moveTo(80,30); // starting point<br>
+context.lineTo(130,30); // next defined point<br>
 context.lineTo(140,60); // ----//-----<br>
 context.lineTo(200,100);<br>
 context.lineTo(215,150);<br>
 context.lineTo(165,150);<br>
 context.lineTo(95,100);<br>
-context.lineTo(80,30);<br> // ----//-----<br>
+context.lineTo(80,30); // ----//-----<br>
 context.fill(); // close the fill method<br>
 context.stroke(); // close the stroke method
 <p>Conception of the Star was a bit tricky, beacuse is a perfect 5 corner shape, so I had to write the following function using 3 parameters two for starting point and one parameter for side length:</p>
