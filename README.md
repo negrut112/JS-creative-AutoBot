@@ -2,7 +2,7 @@
 <p>I updated a new logo of the “Autobots” from the “Transormers” series using HTML and JavaScript.</p>
 <p>You can see the live preview clicking on the picture below:<br>
   
-<a href="https://negrut112.github.io/JS-creative-AutoBot/" target="_blank"><img src="https://i.imgur.com/OUIfXde.png"></a>
+<a href="https://negrut112.github.io/JS-creative-AutoBot" target="_blank"><img src="https://i.imgur.com/OUIfXde.png"></a>
 
 <p>HTML</p>
 <p>I have used the HTML to define the area where I’m working defining the height, width and the border style:</p>
