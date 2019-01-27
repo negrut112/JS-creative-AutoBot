@@ -13,8 +13,8 @@
 <p>Here I applied some graphic methods so I can obtain the desired shapes.</p>
 <p>A simple example that helped to generate the “upper eye left area” is:<br>
 
-context.fillStyle=‘black’; // Used to fill the generated path<br>
-context.strokeStyle=‘black’; // Used to generate path before I fill it</p>
+context.fillStyle=‘black’; // Used to fill the generated path with specific color<br>
+context.strokeStyle=‘black’; // Used to generate path before I fill it with specific color</p>
 <p>context.beginPath();  // method to start the path<br>
 context.moveTo(80,30); // starting point<br>
 context.lineTo(130,30); // next defined point<br>
