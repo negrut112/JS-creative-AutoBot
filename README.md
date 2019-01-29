@@ -4,11 +4,11 @@
   
 <a href="https://negrut112.github.io/JS-creative-AutoBot" target="_blank"><img src="https://i.imgur.com/OUIfXde.png"></a>
 
-<b>HTML</b>
+## HTML
 <p>I have used the HTML to define the area where I’m working defining the height, width and the border style:</p>
 <p>&lt;canvas id=“myCanvas” height=“310” width=“500” style=“border: 1px solid black”&gt;&lt;/canvas&gt;</p>
 
-<b>JavaScript</b>
+## JavaScript
 
 <p>Here I applied some graphic methods so I can obtain the desired shapes.</p>
 <p>A simple example that helped to generate the “upper eye left area” is:<br>
