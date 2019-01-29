@@ -25,8 +25,8 @@ context.lineTo(165,150);<br>
 context.lineTo(95,100);<br>
 context.lineTo(80,30); // ----//-----<br>
 context.fill(); // close the fill method<br>
-context.stroke(); // close the stroke method
-<p>Conception of the Star was a bit tricky, beacuse is a perfect 5 corner shape, so I had to write the following function using 3 parameters two for starting point and one parameter for side length:</code></pre>
+context.stroke(); // close the stroke method</code></pre>
+<p>Conception of the Star was a bit tricky, beacuse is a perfect 5 corner shape, so I had to write the following function using 3 parameters two for starting point and one parameter for side length:</p>
 <br>
 <pre><code>function filledStar(x,y,a){<br>
 context.fillStyle=‘red’<br>
