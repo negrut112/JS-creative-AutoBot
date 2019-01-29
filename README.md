@@ -15,7 +15,7 @@
 
 context.fillStyle=‘black’; // Used to fill the generated path with specific color<br>
 context.strokeStyle=‘black’; // Used to generate path before I fill it with specific color</p>
-<p>context.beginPath();  // method to start the path<br>
+<pre><code>context.beginPath();  // method to start the path<br>
 context.moveTo(80,30); // starting point<br>
 context.lineTo(130,30); // next defined point<br>
 context.lineTo(140,60); // ----//-----<br>
@@ -26,9 +26,9 @@ context.lineTo(95,100);<br>
 context.lineTo(80,30); // ----//-----<br>
 context.fill(); // close the fill method<br>
 context.stroke(); // close the stroke method
-<p>Conception of the Star was a bit tricky, beacuse is a perfect 5 corner shape, so I had to write the following function using 3 parameters two for starting point and one parameter for side length:</p>
+<p>Conception of the Star was a bit tricky, beacuse is a perfect 5 corner shape, so I had to write the following function using 3 parameters two for starting point and one parameter for side length:</code></pre>
 <br>
-function filledStar(x,y,a){<br>
+<pre><code>function filledStar(x,y,a){<br>
 context.fillStyle=‘red’<br>
 context.beginPath();<br>
 context.moveTo(x+a/2-(Math.sin(72<em>Math.PI/180)<em>a/2), y-Math.sin(18</em>Math.PI/180)<em>a/2);/<em>1-ok</em>/<br>
@@ -41,6 +41,6 @@ context.fill();<br>
 context.stroke();<br>
 }<br>
 console.log();<br>
-filledStar(225,50,70);</p>
+filledStar(225,50,70);</code></pre>
 <p>To perfectly mirror the right side, I used basic calculations, having a middle coordinate point like reference on X-axis.</p>
 <p>I’m gonna talk about the colored squares behind the logo, in <a  href="https://negrut112.github.io/JS-Multiple-color-squares/">this</a> project.
