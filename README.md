@@ -43,4 +43,4 @@ context.stroke();<br>
 console.log();<br>
 filledStar(225,50,70);</code></pre>
 <p>To perfectly mirror the right side, I used basic calculations, having a middle coordinate point like reference on X-axis.</p>
-<p>I’m gonna talk about the colored squares behind the logo, in <a  href="https://negrut112.github.io/JS-Multiple-color-squares/">this</a> project.
+<p>I’m gonna talk about the colored squares behind the logo, in <a  href="https://github.com/negrut112/JS-Multiple-color-squares/blob/master/README.md">this</a> project.
