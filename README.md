@@ -1,6 +1,6 @@
 <h1><a id="Customized_AutoBot_Logo_0"></a>Customized AutoBot Logo</h1>
 <p>I updated a new logo of the “Autobots” from the “Transormers” movie series using HTML and JavaScript.</p>
-<p>You can see the live preview clicking on the picture below:<br>
+<p> Click on the picture below to see the live preview:<br>
   
 <a href="https://negrut112.github.io/JS-creative-AutoBot" target="_blank"><img src="https://i.imgur.com/OUIfXde.png"></a>
 
